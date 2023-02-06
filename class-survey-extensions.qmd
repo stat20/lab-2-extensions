@@ -1,0 +1,41 @@
+---
+title: "Lab 2: Extensions"
+---
+
+These exercises challenge your newfound skills with `ggplot`. They are not to be submitted or graded, just marvelled at.
+
+#### Extension 1
+
+One or two of your plots from the labs probably have labels that overlap one another. Search online to find a solution that will make them more legible. There are several different ways this could be done!
+
+#### Extension 2
+
+Adjust the size and centering of your plots by adding options at the top of the code cell that makes the plot.
+
+```{{r}}
+#| fig-width: 4
+#| fig-height: 3
+#| fig-align: center
+
+
+```
+
+ Fiddle around with them until you find something that looks nice. Quarto has *many* different code cell options that you can add like this behind `#|` to control exactly how you want it to handle your code. Read more about them here.
+ 
+<https://quarto.org/docs/reference/cells/cells-knitr.html>
+
+#### Extension 3
+
+There is a built-in data set called `diamonds`. Read about it by typing `?diamonds` at the console.
+
+Create *four* different plots that all illustrate the relationship between the price of a diamond and the quality of its cut.
+
+#### Extension 4
+
+Read about a package called `gganimate`.
+
+<https://gganimate.com/>
+
+Add a `transition_states()` layer to your existing plots to play around with how it works. Then use their code to replicate the visualization of the Gapminder data that we saw in the Hans Rosling video.
+
+Note: this package isn't installed universally on our cloud RStudio, but you can install it manually using the code provided in the Installation section.
